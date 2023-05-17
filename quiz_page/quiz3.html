@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Assets/css/style.css">
+    <link rel="stylesheet" href="../Assets/css/bootstrap/bootstrap.min.css">
+    <script src="../Assets/js/quiz1.js"></script>
+</head>
+
+<body  onload="Initialize('quiz4')">
+    <div class="container">
+        <div class="row">
+            
+            <div class="p-2 text-center text-danger col-sm-12">
+                <h1 id="seconds" class="d-inline-block fw-bold">20</h1>
+                <h1 class="d-inline-block fw-bold">:</h1>
+                <h1 class="d-inline-block fw-bold">00</h1>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center" style="height: 60vh;">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Question 03</h2>
+                    </div>
+                    <div class="card-body" style="font-size:20px !important">
+                        <div>
+                            <h4>How many rings in Olympic sign?</h4>
+                        </div>
+                        <div> 
+                            <div class="form-check">
+                                <input id="opt1" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    5
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input id="opt2" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    2
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input id="opt3" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" >
+                                <label class="form-check-label" for="flexRadioDefault3">
+                                    6
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input id="opt4" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" >
+                                <label class="form-check-label" for="flexRadioDefault4">
+                                    3
+                                </label>
+                              </div>
+                          
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-end">
+                <button id="next" onclick="NextQuiz('opt1','quiz4')" class="btn btn-primary btn-lg fw-bold">Next -></button>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script src="../Assets/js/bootstrap/bootstrap.min.js"></script>
+</body>
+
+</html>

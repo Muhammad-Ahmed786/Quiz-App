@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Assets/css/style.css">
+    <link rel="stylesheet" href="../Assets/css/bootstrap/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-">
+   
+
+        <div class="row vh-100 align-items-center">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-header text-center p-3 bg-success">
+                        <h3 class="text-light">Result</h3>
+                    </div>
+                    <div class="card-body text-center py-5" style="font-size:20px !important">
+                        <h2><span id="logedinName"></span>! You have scored <span id="score">00</span> out of 50</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 text-center">
+                <a href="../index.html" class="btn btn-primary btn-lg">Start Again!</a>
+                <button onclick="Logout()" class="btn btn-danger btn-lg">Logout</button>
+            </div>
+        </div>
+     
+    </div>
+
+
+
+    <script src="../Assets/js/result.js"></script>
+    <script src="../Assets/js/bootstrap/bootstrap.min.js"></script>
+</body>
+
+</html>
